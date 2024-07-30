@@ -8722,15 +8722,15 @@
 }, {
   "name": "Kaia Testnet Kairos",
   "chain": "KAIA",
-  "rpc": ["https://public-en.kairos.node.kaia.io", "https://public-en-baobab.klaytn.net"],
-  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
+  "rpc": ["https://public-en.kairos.node.kaia.io"],
+  "faucets": ["https://faucet.kaia.io"],
   "nativeCurrency": {
     "name": "KAIA",
     "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://www.kaia.io/",
-  "shortName": "Kairos",
+  "infoURL": "https://kaia.io/",
+  "shortName": "kaia-kairos",
   "chainId": 1001,
   "networkId": 1001,
   "slip44": 1,
@@ -19575,17 +19575,17 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Klaytn Mainnet Cypress",
-  "chain": "KLAY",
+  "name": "Kaia Mainnet",
+  "chain": "KAIA",
   "rpc": ["https://public-en-cypress.klaytn.net"],
   "faucets": [],
   "nativeCurrency": {
-    "name": "KLAY",
-    "symbol": "KLAY",
+    "name": "KAIA",
+    "symbol": "KAIA",
     "decimals": 18
   },
-  "infoURL": "https://klaytn.foundation",
-  "shortName": "Cypress",
+  "infoURL": "https://kaia.io",
+  "shortName": "kaia-mainnet",
   "chainId": 8217,
   "networkId": 8217,
   "slip44": 8217,
