@@ -1,0 +1,31 @@
+{
+  "name": "Kaia Testnet Kairos",
+  "chain": "KAIA",
+  "rpc": [
+    "https://public-en.kairos.node.kaia.io",
+    "https://public-en-baobab.klaytn.net"
+  ],
+  "faucets": ["https://baobab.wallet.klaytn.com/access?next=faucet"],
+  "nativeCurrency": {
+    "name": "KAIA",
+    "symbol": "KAIA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.kaia.io/",
+  "shortName": "Kairos",
+  "chainId": 1001,
+  "networkId": 1001,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "Klaytnscope",
+      "url": "https://baobab.klaytnscope.com",
+      "standard": "EIP3091"
+    },
+    {
+      "name": "Klaytnfinder",
+      "url": "https://baobab.klaytnfinder.io",
+      "standard": "EIP3091"
+    }
+  ]
+}
